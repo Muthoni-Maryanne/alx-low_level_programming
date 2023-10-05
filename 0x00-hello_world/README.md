@@ -35,7 +35,7 @@ Your program should compile without warning when using the -Wall gcc option
 
 ![7](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/15624f29-9094-4804-985b-edebb44261cf)
 
-**Task 8:** []()- Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
+**Task 8:** [101-quote.c](](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/[101-quote.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c))- Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
 Your program should return 1. Your program should compile without any warnings when using the -Wall gcc option.
 
 ![8](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/65c1f323-54f6-4159-8308-155ccfcb379b)
