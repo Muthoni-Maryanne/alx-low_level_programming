@@ -1,18 +1,15 @@
-/*
- * File: 5-printf.c
- * Auth: Maryanne Muthoni
- */
+/* File: 5-printf.c */
 
 #include <stdio.h>
 
 /**
  * main - Entry point
  * prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line
- * Return: Always 0 (Success)
+ * Return: Always
  */
 int main(void)
 {
-    printf("with proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
-    return (0);
+	return (0);
 }
