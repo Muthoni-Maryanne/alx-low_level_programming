@@ -11,3 +11,7 @@ Example: if the C file is main.c, the output file should be main.o
 Example: if the C file is main.c, the output file should be main.s
 
 ![2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/d2fe52e9-9b4c-47d5-ad46-433c23ae0311)
+
+**Task 3:** [3-name](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/3-name)- Write a script that compiles a C file and creates an executable named cisfun. The C file name will be saved in the variable $CFILE.
+![3](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/3fc4ffff-037b-401e-ac18-889a263710a8)
+
