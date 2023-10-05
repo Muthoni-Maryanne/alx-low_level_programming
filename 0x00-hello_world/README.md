@@ -19,3 +19,11 @@ Example: if the C file is main.c, the output file should be main.s
 **Task 4:** []()- C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line. Use the function puts. You are not allowed to use printf. Your program should end with the value 0.
 ![4](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/5463bd49-ae7d-4a8b-8bcf-7656ef94abd9)
 
+**Task 5:** [5-printf.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c)- Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+Use the function printf
+You are not allowed to use the function puts
+Your program should return 0
+Your program should compile without warning when using the -Wall gcc option
+
+![5](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/b8e3b51a-7bc0-4a5e-8144-e8ac4a8ec520)
+
