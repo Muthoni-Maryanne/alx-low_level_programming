@@ -4,7 +4,6 @@
 
 /**
  * main - Entry point
- * prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line
  * Return: Always
  */
 int main(void)
