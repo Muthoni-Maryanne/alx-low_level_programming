@@ -20,7 +20,7 @@ int main(void)
 			break;
 
 		if ((fibnosum % 2) == 0)
-			tot_sum += fibsnoum;
+			total += fibnosum;
 
 		fibno1 = fibno2;
 		fibno2 = fibnosum;
