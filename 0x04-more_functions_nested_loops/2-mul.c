@@ -4,8 +4,8 @@
 
 /**
  * mul- function that multiplies two integers
- * @a - First parameter
- * @b - Second parameter
+ * @a: First parameter
+ * @b: Second parameter
  *
  * Return: multiplication result
  */
