@@ -3,18 +3,21 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase.
+ * main - program that prints the alphabet in lowercase,
+ * only use the putchar function,
+ * all your code should be in the main function,
+ * can only use putchar twice in your code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	char letter;
+	char alphabet;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		putchar(alphabet);
+	}
 	putchar('\n');
-
 	return (0);
 }
