@@ -1,6 +1,6 @@
 /* File: 2-strlen.c */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strlen - Returns the length of a string.
