@@ -4,10 +4,9 @@
 
 /**
  * memset - function that fills memory with a constant byte
- * 
- * @n - _memset() function fills the first n bytes of the memory area 
- * @s - pointer to the mempory to be filled
- * @b - constant
+ * @s: memory area to be filled
+ * @b: char to copy
+ * @n: number of times to copy b
  *
  * Return: pointer to the memory area s
  */
