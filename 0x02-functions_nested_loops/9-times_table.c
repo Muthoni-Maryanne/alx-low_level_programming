@@ -32,9 +32,8 @@ void times_table(void)
 			{
 				if (tt >= 10)
 				{
-					if ((i == 2 && j == 2) && (i == 3 && j == 4) 
-							&& (i == 4 && j == 3) 
-							&& (i >= 5 && j >= 2))
+					if ((i == 2 && j == 2) && (i == 3 && j == 4)
+							&& (i == 4 && j == 3) && (i >= 5 && j >= 2))
 					{
 						printf("%d,  ", tt);
 					}
@@ -43,7 +42,7 @@ void times_table(void)
 					printf("%d, ", tt);
 					}
 				}
-				else if (tt < 10 && tt >= 0)
+				else if (tt < 10 && tt >= 1)
 				{
 					printf(" %d, ",tt);
 				}
