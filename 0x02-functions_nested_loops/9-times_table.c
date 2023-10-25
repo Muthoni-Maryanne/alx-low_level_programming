@@ -35,7 +35,7 @@ void times_table(void)
 				else if (tt < 10 && tt >= 1)
 					printf(" %d, ", tt);
 				else if (tt == 0 && j >= 1)
-                               		printf(" %d, ", tt);
+					printf(" %d, ", tt);
 				else if (tt == 0 && j == 0)
 					printf("%d, ", tt);
 		}
