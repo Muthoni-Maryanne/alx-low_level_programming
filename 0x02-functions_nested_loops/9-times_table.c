@@ -21,32 +21,23 @@ void times_table(void)
 			int tt = i * j;
 
 			if (j == 9 && i <= 1)
-			{
 				printf(" %d", tt);
-			}
 			else if (j == 9 && i >= 2)
-			{
 				printf("%d", tt);
-			}
+
 			else
-			{
 				if (tt >= 10)
-				{
 					if ((i == 2 && j == 2) && (i == 3 && j == 4)
 							&& (i == 4 && j == 3) && (i >= 5 && j >= 2))
-					{
 						printf("%d,  ", tt);
-					}
 					else
-					{
 					printf("%d, ", tt);
-					}
-				}
 				else if (tt < 10 && tt >= 1)
-				{
-					printf(" %d, ",tt);
-				}
-			}
+					printf(" %d, ", tt);
+				else if (tt == 0 && j >= 1)
+                               		printf(" %d, ", tt);
+				else if (tt == 0 && j == 0)
+					printf("%d, ", tt);
 		}
 		printf("\n");
 	}
