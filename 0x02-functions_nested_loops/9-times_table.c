@@ -19,11 +19,28 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			int tt = i * j;
-			printf("%d ,", tt);
 
 			if (j == 9)
 			{
 				printf("%d", tt);
+			}
+			else
+			{
+				if (tt >= 10)
+				{
+					if (i >= 2 && j >= 2)
+					{
+						printf("%d,  ", tt);
+					}
+					else
+					{
+					printf("%d, ", tt);
+					}
+				}
+				else if (tt < 10 && tt >= 0)
+				{
+					printf(" %d,  ",tt);
+				}
 			}
 		}
 		printf("\n");
