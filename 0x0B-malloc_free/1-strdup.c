@@ -1,6 +1,6 @@
 /* File: 1-strdup.c */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
