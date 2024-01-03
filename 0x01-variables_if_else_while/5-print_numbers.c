@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-	int b_10;
+	char b_10;
 
-	for (b_10 = 48; b_10 <= 57; b_10++)
+	for (b_10 = '0'; b_10 <= '9'; b_10++)
 	{
 		putchar(b_10);
 	}
