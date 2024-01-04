@@ -15,3 +15,11 @@ The resources used to learn were:
 5). [C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
 
 The tasks done were:
+
+**NOTE:** For the tasks [main.h](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x02-functions_nested_loops/main.h) was used for the header files and [_putchar](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x02-functions_nested_loops/_putchar.c) was a user defined function in place of putchar.
+
+
+**Task 0:**  [0-putchar.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x02-functions_nested_loops/0-putchar.c)- program that prints _putchar, followed by a new line. It returns 0.
+
+![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/9ad67dbb-a4c3-423e-810e-62ef9f52e40e)
+
