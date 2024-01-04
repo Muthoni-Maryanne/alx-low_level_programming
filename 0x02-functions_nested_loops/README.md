@@ -23,3 +23,8 @@ The tasks done were:
 
 ![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/9ad67dbb-a4c3-423e-810e-62ef9f52e40e)
 
+**Task 1:**  [1-alphabet.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x02-functions_nested_loops/1-alphabet.c)- function that prints the alphabet, in lowercase, followed by a new line. Can only use _putchar twice. [1-main.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x02-functions_nested_loops/1-main.c) used to test the code.
+Prototype: void print_alphabet(void);
+
+![1](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/6b1364e2-d802-4e99-802b-c34046ff9c39)
+
