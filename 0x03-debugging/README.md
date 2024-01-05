@@ -25,7 +25,25 @@ You only need to upload 0-main.c and main.h for this task. We will provide our o
 
 ![1 part 2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/3bfdd538-c26b-45be-9356-a972cddd128a)
 
-**Task 2:** []()- 
+**Task 2:** [2-largest_number.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c). 
+
+This program below prints the largest of three integers.
+
+Main function:
+
+![2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/938d9c49-a2c7-418e-9f10-75557649e067)
+
+int largest_number(int a, int b, int c);
+
+![2 part 2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/8ad31b1f-a8a3-4d95-af4a-549338175795)
+
+The output however is not correct:
+
+![2 part 3](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/86785884-1711-4848-bbd6-3e5686eec26f)
+
+Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case. For this task [2-main.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/2-main.c) used as the main function to test the code in [2-largest_number.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c).
+
+
 
 
 
