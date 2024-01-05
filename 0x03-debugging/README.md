@@ -17,5 +17,15 @@ The tasks done to test the concept are:
 Based on the main.c file above, create a file named 0-main.c. This file must test that the function [positive_or_negative.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/positive_or_negative.c) gives the correct output when given a case of 0. You are not coding the solution/function, you’re just testing it! 
 You only need to upload 0-main.c and main.h for this task. We will provide our own positive_or_negative() function but one can create a custom one. How main.h should look and compilation with gcc:
 
-![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/48b8136c-283a-4510-b8a9-0209c131e731)
+![0 part 2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/3782f408-98c4-4638-ab97-4a635b97c782)
+
+**Task 1:**  [1-main.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/1-main.c)- Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
+
+![1](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/3642a281-3b28-4882-b0b3-4f8c9a027025)
+
+![1 part 2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/3bfdd538-c26b-45be-9356-a972cddd128a)
+
+**Task 2:** []()- 
+
+
 
