@@ -10,6 +10,8 @@ The resources used for learning are:
 
 The tasks done to test the concept are:
 
+
+
 **Task 0:** [positive_or_negative.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/positive_or_negative.c)  is a function that tests whether a number is negative or positive.
 
 ![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/7e517aea-e809-481b-9bcf-545a045bf7d8)
@@ -18,6 +20,8 @@ Based on the main.c file above, create a file named 0-main.c. This file must tes
 You only need to upload 0-main.c and main.h for this task. We will provide our own positive_or_negative() function but one can create a custom one. How main.h should look and compilation with gcc:
 
 ![0 part 2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/3782f408-98c4-4638-ab97-4a635b97c782)
+
+
 
 **Task 1:**  [1-main.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/1-main.c)- Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
 
@@ -43,6 +47,29 @@ The output however is not correct:
 
 Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case. For this task [2-main.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/2-main.c) used as the main function to test the code in [2-largest_number.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c).
 
+
+
+**Task 2:** 
+
+This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration. It has 3 functions: the main, int convert_day(int month, int day); and void print_remaining_days(int month, int day, int year);.
+
+[3-main_a.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/3-main_a.c)- The default main function takes a date and prints how many days are left in the year, taking leap year into account. It tests the date April 1st 1997.
+
+![3](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/d79cb3d4-ccf0-4584-848a-8431f3ed58c9)
+
+[3-convert_day.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/3-convert_day.c)- Function that converts day of the month to day of the year, without accounting for leap year.
+
+![3 part 2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/f2af39e9-7b5d-4af3-948d-71eae0e06005)
+
+[3-print_remaining_days.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/3-print_remaining_days.c)- Function that takes a date and prints how many days are left in the year, taking leap years into account.
+
+![3 part 4](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/163d95df-9b73-4753-8f20-0902ef7472fc)
+
+Output looks good for 04/01/1997 that is being tested in [3-main_a.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/3-main_a.c). Let’s make a new main file to try a case that is a leap year: 02/29/2000. The new main file is [3-main_b.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/3-main_b.c). Output for the year 2000 is wrong. Fix the print_remaining_days() function so that the output works correctly for all dates and all leap years.
+
+![3 part 5](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/af196eda-c476-4359-be62-e492789be178)
+
+Solution: [3-print_remaining_days.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/3-print_remaining_days.c)
 
 
 
