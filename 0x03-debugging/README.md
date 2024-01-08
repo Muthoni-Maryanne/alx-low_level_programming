@@ -65,6 +65,9 @@ This program converts a date to the day of year and determines how many days are
 
 ![3 part 4](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/163d95df-9b73-4753-8f20-0902ef7472fc)
 
+![3 part 6](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/8733db20-dacc-4620-92ee-95e2272785c9)
+
+
 Output looks good for 04/01/1997 that is being tested in [3-main_a.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/3-main_a.c). Let’s make a new main file to try a case that is a leap year: 02/29/2000. The new main file is [3-main_b.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/3-main_b.c). Output for the year 2000 is wrong. Fix the print_remaining_days() function so that the output works correctly for all dates and all leap years.
 
 ![3 part 5](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/af196eda-c476-4359-be62-e492789be178)
