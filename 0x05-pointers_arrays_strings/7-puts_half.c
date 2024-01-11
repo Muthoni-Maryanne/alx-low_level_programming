@@ -39,10 +39,11 @@ void puts_half(char *str)
 	else if (count % 2 != 0)
 	{
 		int b = (count - 1) / 2;
+		b = b + 1;
 
-		while (b <= count)
+		while (b < count)
 		{
-			index = b + 1;
+			index = b;
 			_putchar(str[index]);
 			b++;
 		}
