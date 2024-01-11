@@ -22,12 +22,11 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 
-		if (a[n - 1])
+		if (i == n - 1)
 		{
 			break;
 		}
-		_putchar(',');
-		_putchar(' ');
+		printf(", ");
 	}
-	_putchar('\n');
+	printf("\n");
 }
