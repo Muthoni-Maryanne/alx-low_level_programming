@@ -24,13 +24,11 @@ void puts_half(char *str)
 		count++;
 	}
 
-	count = count + 1;
-
 	if (count % 2 == 0)
 	{
 		int a = count / 2;
 
-		while (a <= count)
+		while (a < count)
 		{
 			index = a;
 			_putchar(str[index]);
@@ -42,7 +40,7 @@ void puts_half(char *str)
 	{
 		int b = (count - 1) / 2;
 
-		while (b <= count)
+		while (b < count)
 		{
 			index = b;
 			_putchar(str[index]);
