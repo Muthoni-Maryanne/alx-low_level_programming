@@ -40,7 +40,7 @@ void puts_half(char *str)
 	{
 		int b = (count - 1) / 2;
 
-		while (b < count)
+		while (b <= count)
 		{
 			index = b + 1;
 			_putchar(str[index]);
