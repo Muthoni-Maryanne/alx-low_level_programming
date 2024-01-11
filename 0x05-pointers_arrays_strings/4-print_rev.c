@@ -20,6 +20,8 @@ void print_rev(char *s)
 		length++;
 	}
 
+	index = index - 1;
+
 	while (index >= 0)
 	{
 		_putchar(s[index]);
