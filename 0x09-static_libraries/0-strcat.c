@@ -1,6 +1,6 @@
 /* File: 0-strcat.c */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * strcat - Concatenates the string pointed to by @src, including the terminating
