@@ -1,6 +1,6 @@
 /* File: 100-atoi.c */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _atoi - Converts a string to an integer.
