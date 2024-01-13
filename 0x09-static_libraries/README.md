@@ -16,7 +16,7 @@ Resources used to learn were:
 
 The tasks used to reinforce these concepts are:
 
-**Task 0:**  []()
+**Task 0:**  [libmy.a](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x09-static_libraries/libmy.a)
 
 Create the static library libmy.a containing all the functions listed below:
 
@@ -28,8 +28,14 @@ Create the static library libmy.a containing all the functions listed below:
 
 ![0 part 3](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/9a4d371b-354d-41c0-ab19-786a696192dd)
 
-**Task 1:** []()
-Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
+Other files used:
+
+[main.h](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x09-static_libraries/main.h)
+
+[main.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x09-static_libraries/main.c)
+
+**Task 1:** [create_static_lib.sh](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh)
+Create a script called create_static_lib.sh that creates a static library called [liball.a](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x09-static_libraries/liball.a) from all the .c files that are in the current directory.
 
 ![1](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/ea3141f7-df32-4c28-b058-953fb601e3d1)
 
