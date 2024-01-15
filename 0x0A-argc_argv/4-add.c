@@ -19,9 +19,8 @@ int main(int argc, char *argv[])
 {
 	if (argc  >= 2)
 	{
-		int i;
+		int i, num;
 		int sum = 0;
-		int num;
 
 		for (i = 1; i < argc; i++)
 		{
@@ -38,9 +37,10 @@ int main(int argc, char *argv[])
 
 				if (str[0] == '-')
 				{
-					int sign = -1;
-
-					num = (-atoi(argv[i]) * sign);
+					/*solution if adding negatives*/
+					/*num = (-atoi(argv[i]) * -1);*/
+					printf("Error\n");
+					return (1);
 				}
 				else
 				{
