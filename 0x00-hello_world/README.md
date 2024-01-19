@@ -1,8 +1,8 @@
-**0x00. C - Hello, World**
+# **Project 1: 0x00. C - Hello, World**
 
 This was an introduction to C. The concepts covered include: origins of C, Unix, Linux, data types, variables, formatted and unformatted I/O, putchar(), getchar(), printf(), scanf(), puts(), gcc compiler and the compilation process. 
 
-The resources used  to learn were: 
+# Resources 
 
 1). [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
 
@@ -24,6 +24,7 @@ The resources used  to learn were:
 
 10). [Jenny C tutorial](https://www.youtube.com/watch?v=EjavYOFoJJ0&list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S)
 
+# Tasks
 
 **Task 0:** [0-preprocessor](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)- Write a script that runs a C file through the preprocessor and save the result into another file. The C file name will be saved in the variable $CFILE. The output should be saved in the file c.
 ![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/1e26bee4-bd17-4ad5-9489-6d4b5aa368e7)
