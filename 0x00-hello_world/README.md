@@ -24,6 +24,8 @@ This was an introduction to C. The concepts covered include: origins of C, Unix,
 
 10). [Jenny C tutorial](https://www.youtube.com/watch?v=EjavYOFoJJ0&list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S)
 
+11). man pages: gcc, printf, puts and putchar.
+
 # Tasks
 
 **Task 0:** [0-preprocessor](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)- Write a script that runs a C file through the preprocessor and save the result into another file. The C file name will be saved in the variable $CFILE. The output should be saved in the file c.
