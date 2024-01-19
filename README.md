@@ -1,7 +1,7 @@
 # C
 This is a repository for all C tasks and projects done at ALX Africa. 
 # Prerequisites: Betty
-Before beginning one has to install Betty linter to check the code and ensure it follows the Betty coding style, a derivative of the Linux coding style used at ALX Arica/Holberton School. The process is:
+Before beginning one has to install Betty linter to check the code and ensure it follows the Betty coding style, a derivative of the Linux coding style used at ALX Africa/Holberton School. The process is:
 
 -. Go to the [Betty](https://github.com/alx-tools/Betty) repository
 
