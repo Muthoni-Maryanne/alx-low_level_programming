@@ -22,7 +22,7 @@ This is a continuation of C. The concepts covered include: identifiers, keywords
 
 9. [While loop](https://www.youtube.com/watch?v=Ju1LYO9pkaI)
 
-
+10. man ascii
 
 ## Tasks
 
