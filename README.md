@@ -60,7 +60,7 @@ Process of creating repository:
 
 4. Create [0x00-hello_world](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x00-hello_world) directory.
 
-5. Create files in [0x00-hello_world](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x00-hello_world) and input for each task in [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/README.md)
+5. Create files in [0x00-hello_world](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x00-hello_world) and input for each task and put information about each task in [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/README.md)
 
 6. Git add, git commit and git push each file to remote repo in GitHub.
 
@@ -72,7 +72,7 @@ Process:
 
 1. mkdir [0x01-variables_if_else_while](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x01-variables_if_else_while) directory in [alx-low_level_programming](https://github.com/Muthoni-Maryanne/alx-low_level_programming) repository.
 
-2. Create files in [0x01-variables_if_else_while](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x01-variables_if_else_while) for each task and input for each task in the [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x01-variables_if_else_while/README.md) for the project.
+2. Create files in [0x01-variables_if_else_while](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x01-variables_if_else_while) for each task and put information about each task in the [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x01-variables_if_else_while/README.md) for the project.
 
 3. Git add, git commit and git push each file to the remote repo in GitHub.
 
@@ -84,7 +84,7 @@ Process:
 
 1. mkdir [0x02-functions_nested_loops](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x02-functions_nested_loops) directory in [alx-low_level_programming](https://github.com/Muthoni-Maryanne/alx-low_level_programming) repository.
 
-2. Create files in [0x02-functions_nested_loops](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x02-functions_nested_loops) for each task and input for each task in the [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x02-functions_nested_loops/README.md) for the project.
+2. Create files in [0x02-functions_nested_loops](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x02-functions_nested_loops) for each task and put information about each task in the [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x02-functions_nested_loops/README.md) for the project.
 
 3. Git add, git commit and git push each file to the remote repo in GitHub.
 
@@ -96,7 +96,7 @@ Process:
 
 1. mkdir [0x03-debugging](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x03-debugging) directory in [alx-low_level_programming](https://github.com/Muthoni-Maryanne/alx-low_level_programming) repository.
 
-2. Create files in [0x03-debugging](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x03-debugging) for each task and input for each task in the [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/README.md) for the project.
+2. Create files in [0x03-debugging](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x03-debugging) for each task and put information about each task in the [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/README.md) for the project.
 
 3. Git add, git commit and git push each file to the remote repo in GitHub.
 
@@ -106,6 +106,6 @@ Continuation of functions tasks in project 2.
 
 1. mkdir [0x04-more_functions_nested_loops](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops) directory in [alx-low_level_programming](https://github.com/Muthoni-Maryanne/alx-low_level_programming) repository.
 
-2. Create files in  [0x04-more_functions_nested_loops](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops) for each task and input for each task in the [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/README.md) for the project.
+2. Create files in  [0x04-more_functions_nested_loops](https://github.com/Muthoni-Maryanne/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops) for each task and put information about each task in the [README.md](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/README.md) for the project.
 
 3. Git add, git commit and git push each file to the remote repo in GitHub.
