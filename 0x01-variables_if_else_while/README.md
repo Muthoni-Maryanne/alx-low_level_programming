@@ -1,30 +1,30 @@
-**0x01. C - Variables, if, else, while**
+# **0x01. C - Variables, if, else, while**
 
 This is a continuation of C. The concepts covered include: identifiers, keywords, integers, characters, reals, operators in C(arithmetic operators (+, -, *, /, %), assignment operators(=, +=, -=, *=, /=, %=, &=, ^=), bitwise operators(&, |, ^, <<, >>, ~), relational operators(>, <, ==, !=, >=, <=), logical/boolean operators(&&, ||, !), ternary operator(Condition? true_value: false_value), increment(++), decrement(--), special operators(&- address, *-pointer, sizeof()), conditional statements(if, if..else, if..else if..else), while loop and for loop.
 
-The resources used to learn were:
+## Resources
 
-1). [Keywords and identifiers](https://publications.gbdirect.co.uk//c_book/chapter2/keywords_and_identifiers.html)
+1. [Keywords and identifiers](https://publications.gbdirect.co.uk//c_book/chapter2/keywords_and_identifiers.html)
 
-2). [Integers](https://publications.gbdirect.co.uk//c_book/chapter2/integral_types.html)
+2. [Integers](https://publications.gbdirect.co.uk//c_book/chapter2/integral_types.html)
 
-3). [Arithmetic operators in C](https://www.tutorialspoint.com/cprogramming/c_arithmetic_operators.htm)
+3. [Arithmetic operators in C](https://www.tutorialspoint.com/cprogramming/c_arithmetic_operators.htm)
 
-4). [If Statements in C](https://www.cprogramming.com/tutorial/c/lesson2.html)
+4. [If Statements in C](https://www.cprogramming.com/tutorial/c/lesson2.html)
 
-5). [if...else statement](https://www.tutorialspoint.com/cprogramming/if_else_statement_in_c.htm)
+5. [if...else statement](https://www.tutorialspoint.com/cprogramming/if_else_statement_in_c.htm)
 
-6). [Relational operators in C](https://www.tutorialspoint.com/cprogramming/c_relational_operators.htm)
+6. [Relational operators in C](https://www.tutorialspoint.com/cprogramming/c_relational_operators.htm)
 
-7). [Logical operators](https://www.fresh2refresh.com/c-programming/c-operators-expressions/c-logical-operators/)
+7. [Logical operators](https://www.fresh2refresh.com/c-programming/c-operators-expressions/c-logical-operators/)
 
-8). [While loop in C](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm)
+8. [While loop in C](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm)
 
-9). [While loop](https://www.youtube.com/watch?v=Ju1LYO9pkaI)
+9. [While loop](https://www.youtube.com/watch?v=Ju1LYO9pkaI)
 
+10. man ascii
 
-
-The tasks done were:
+## Tasks
 
 **Task 0:** [0-positive_or_negative.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)- This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
 

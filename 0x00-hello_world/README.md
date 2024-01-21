@@ -1,29 +1,32 @@
-**0x00. C - Hello, World**
+# **Project 1: 0x00. C - Hello, World**
 
 This was an introduction to C. The concepts covered include: origins of C, Unix, Linux, data types, variables, formatted and unformatted I/O, putchar(), getchar(), printf(), scanf(), puts(), gcc compiler and the compilation process. 
 
-The resources used  to learn were: 
+## Resources 
 
-1). [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
+1. [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
 
-2). ["C" Programming Language: Brian Kernighan - Computerphile](https://www.youtube.com/watch?v=de2Hsvxaf8M)
+2. ["C" Programming Language: Brian Kernighan - Computerphile](https://www.youtube.com/watch?v=de2Hsvxaf8M)
 
-3). [Why C programming is awesome](https://www.youtube.com/watch?v=smGalmxPVYc)
+3. [Why C programming is awesome](https://www.youtube.com/watch?v=smGalmxPVYc)
 
-4). [Learning to Program in C (Part 01)](https://www.youtube.com/watch?v=rk2fK2IIiiQ)
+4. [Learning to Program in C (Part 01)](https://www.youtube.com/watch?v=rk2fK2IIiiQ)
 
-5). [Learning to Program in C (Part 01)](https://www.youtube.com/watch?v=FwpP_MsZWnU)
+5. [Learning to Program in C (Part 01)](https://www.youtube.com/watch?v=FwpP_MsZWnU)
 
-6). [Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA)
+6. [Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA)
 
-7). [Betty coding style](https://github.com/alx-tools/Betty/wiki)
+7. [Betty coding style](https://github.com/alx-tools/Betty/wiki)
 
-8). [Hash-bang under the hood](https://twitter.com/unix_byte/status/1024147947393495040?s=21)
+8. [Hash-bang under the hood](https://twitter.com/unix_byte/status/1024147947393495040?s=21)
 
-9). [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
+9. [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
 
-10). [Jenny C tutorial](https://www.youtube.com/watch?v=EjavYOFoJJ0&list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S)
+10. [Jenny C tutorial](https://www.youtube.com/watch?v=EjavYOFoJJ0&list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S)
 
+11. man pages: gcc, printf, puts and putchar.
+
+## Tasks
 
 **Task 0:** [0-preprocessor](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)- Write a script that runs a C file through the preprocessor and save the result into another file. The C file name will be saved in the variable $CFILE. The output should be saved in the file c.
 ![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/1e26bee4-bd17-4ad5-9489-6d4b5aa368e7)
