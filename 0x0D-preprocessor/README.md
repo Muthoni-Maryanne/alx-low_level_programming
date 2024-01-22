@@ -39,7 +39,22 @@
 ```
 Each macro is expanded when it appears in the definition of the other macro, but not when it indirectly appears in its own definition. 
 
-4. 
+4. [Macro Arguments](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Macro-Arguments.html#Macro-Arguments)
+   
+`#define min(X, Y)  ((X) < (Y) ? (X) : (Y))`
+      
+x = min(a, b);          ==>  x = ((a) < (b) ? (a) : (b));
+      
+y = min(1, 2);          ==>  y = ((1) < (2) ? (1) : (2));
 
+z = min(a + 28, *p);    ==>  z = ((a + 28) < (*p) ? (a + 28) : (*p));
+
+5. [Pre Processor Directives in C | Directories in C | C Programming Language](https://www.youtube.com/watch?v=X6HiYbY3Uak)
+
+Directives: #define #undef #ifdef #ifndef #if #else #elif #endif #include #error #pragma
+
+predefined macros: __DATE__, __TIME__, __FILE__, __LINE__, __STDC__
+
+6. [The C Preprocessor](https://www.cprogramming.com/tutorial/cpreprocessor.html)
 
 ## Tasks
