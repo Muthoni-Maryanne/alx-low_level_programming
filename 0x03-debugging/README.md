@@ -1,16 +1,14 @@
-**0x03. C - Debugging**
+# **0x03. C - Debugging**
 
 The concepts discussed in this include: what is debugging?, the process, techniques e.g tracing, interactive, activity, postmortem, remote, wolf fence algorithm etc., anti-debugging, and rubber duck debugging.
 
-The resources used for learning are: 
+## Resources 
 
 1). [Debugging](https://en.wikipedia.org/wiki/Debugging)
 
 2). [Rubber duck debugging](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/)
 
-The tasks done to test the concept are:
-
-
+## Tasks
 
 **Task 0:** [positive_or_negative.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x03-debugging/positive_or_negative.c)  is a function that tests whether a number is negative or positive.
 
