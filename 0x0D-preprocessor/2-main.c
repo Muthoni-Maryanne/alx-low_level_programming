@@ -1,6 +1,6 @@
 /* File: 2-main.c */
 
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main- prints the name of the file it was compiled from
@@ -16,10 +16,10 @@ int main(void)
 	s = __FILE__;
 	while (s[index] != '\0')
 	{
-		_putchar(s[index]);
+		putchar(s[index]);
 		index++;
 	}
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
