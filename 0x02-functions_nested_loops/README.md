@@ -36,7 +36,7 @@ Function declaration syntax:
 ```
 return_type function_name( parameter list );
 ```
-Examples:
+Example of function prototypes:
 
 ```
 int max(int num1, int num2);
@@ -45,7 +45,7 @@ int max(int num1, int num2);
 int max(int, int);
 ```
 
-Example:
+Example of max() function to get maximum value of 2 ints:
 
 ```
 #include <stdio.h>
