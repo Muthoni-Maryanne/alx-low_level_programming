@@ -91,11 +91,11 @@ int max(int num1, int num2) {
 
 Include syntax:
 
-User and the system header files: 
+a. User and the system header files: 
 
 ```#include <file>```
 
-Own program header files: 
+b. Own program header files: 
 
 ```#include "file"```
 
@@ -105,7 +105,7 @@ Only once headers to prevent error if a header file happens to be included twice
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
-the entire header file file
+the entire header file file e.g macros, function prototypes etc.
 
 #endif
 ```
