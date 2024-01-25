@@ -6,13 +6,109 @@ This is a continuation of C. The concepts covered include: nested while loops, f
 
 1. [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)
 
+syntax:
+```
+initialization;
+
+while (condition_1)
+{
+  while (condition_2)
+  {
+    inner loop statement block;
+    increment/decrement;
+  }
+  outer loop statement block;
+  increment/decrement;
+}
+```
+
 2. [C- Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
+
+Function definition syntax: 
+```
+return_type function_name( parameter list )
+{
+   body of the function
+}
+```
+Function declaration syntax:
+
+```
+return_type function_name( parameter list );
+```
+Examples:
+
+```
+int max(int num1, int num2);
+
+/*  Parameter names not required, only type required */
+int max(int, int);
+```
+
+Example:
+
+```
+#include <stdio.h>
+ 
+/* function declaration */
+int max(int num1, int num2);
+ 
+int main () {
+
+   /* local variable definition */
+   int a = 100;
+   int b = 200;
+   int ret;
+ 
+   /* calling a function to get max value */
+   ret = max(a, b);
+ 
+   printf( "Max value is : %d\n", ret );
+ 
+   return 0;
+}
+ 
+/* function returning the max between two numbers */
+int max(int num1, int num2) {
+
+   /* local variable declaration */
+   int result;
+ 
+   if (num1 > num2)
+      result = num1;
+   else
+      result = num2;
+ 
+   return result; 
+}
+```
 
 3. [Learning to Program in C (Part 06)](https://www.youtube.com/watch?v=qMlnFwYdqIw)
 
 4. [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
 
 5. [C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
+
+Include syntax:
+
+User and the system header files: 
+
+```#include <file>```
+
+Own program header files: 
+
+```#include "file"```
+
+Only once headers to prevent error if a header file happens to be included twice:
+
+```
+#ifndef HEADER_FILE
+#define HEADER_FILE
+
+the entire header file file
+
+#endif
+```
 
 ## Tasks
 
