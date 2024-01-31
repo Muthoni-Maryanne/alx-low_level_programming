@@ -2,9 +2,14 @@
 
 This is a continuation of C that examines pointers, arrays and strings. 
 
+## Concepts
+
+1. ALX concept page which looks at: types and memory, storing memory addresses, derefrencing, function parameters are passed by value, arrays, pointer vs array (an array is not a pointer but name holds address of first element- array type decay),pointer arithmetic and strings.
+
+
 ## Resources
 
-1. ALX concept page which looks at: types and memory, storing memory addresses, derefrencing, function parameters are passed by value, arrays, pointer vs array (an array is not a pointer but name holds address of first element- array type decay),pointer arithmetic and strings. 
+##Summary
 
 **NOTE:** when using sizeof() and &, the name of the array is not considered as address of first element but as whole array. 
 
@@ -155,6 +160,8 @@ int main(void)
 ```
 How memory looks:
 
+![1](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/7fcd3e66-1539-4170-9b18-20b42cd18ce5)
 
 
+## Tasks
 
