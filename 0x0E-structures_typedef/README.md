@@ -66,9 +66,52 @@ struct my_struct
 ```
 Note: Describing arguments within the body should be used only for struct/enum members.
 
- 3. [Typedef](https://publications.gbdirect.co.uk//c_book/chapter8/typedef.html)
-    
- 4. Programming in C by Stephen Kochan - Chapter 9, Working with Structures p163-189
- 5. [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
+ 3. Programming in C by Stephen Kochan - Chapter 9, Working with Structures p163-189
+
+
+ 4. [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
+ 5. [Typedef](https://publications.gbdirect.co.uk//c_book/chapter8/typedef.html)
+ 
+Used to give a type a new name. For example:
+```
+typedef int aaa, bbb, ccc;
+typedef int ar[15], arr[9][6];
+typedef char c, *cp, carr[100];
+
+/* now declare some objects */
+
+/* all ints */
+aaa     int1;
+bbb     int2;
+ccc     int3;
+
+ar      yyy;    /* array of 15 ints */
+arr     xxx;    /* 9*6 array of int */
+
+c       ch;     /* a char */
+cp      pnt;    /* pointer to char */
+carr    chry;   /* array of 100 char */
+```
+
+can also use typedef with structures to define a new data type:
+```
+typedef struct User User;
+
+typedef struct User
+{
+	char *name;
+	char *email;
+	int age;
+} user;
+
+int main(void)
+{
+	struct User user;
+	User user2;
+
+	return (0);
+}
+``` 
+
 
 
