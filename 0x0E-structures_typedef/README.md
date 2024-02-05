@@ -237,3 +237,8 @@ int main(void)
 
 ## Tasks
 
+**Task 0:** [dog.h](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x0E-structures_typedef/dog.h)- Define a new type struct dog in dog.h header file. Test with [0-main.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x0E-structures_typedef/0-main.c)
+
+![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/9cfeaf66-f4e3-43d0-9d3f-0581fcd2ef9d)
+
+**Task 1:**
