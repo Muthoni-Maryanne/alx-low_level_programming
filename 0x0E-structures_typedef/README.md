@@ -241,4 +241,9 @@ int main(void)
 
 ![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/9cfeaf66-f4e3-43d0-9d3f-0581fcd2ef9d)
 
-**Task 1:**
+**Task 1:** [1-init_dog.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x0E-structures_typedef/1-init_dog.c)- Function that initializes a variable of type struct dog. Test with [1-main.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x0E-structures_typedef/1-main.c)
+
+Prototype: void init_dog(struct dog *d, char *name, float age, char *owner);. 
+
+![1](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/92229983-585c-4079-b26f-9e8fee05d624)
+
