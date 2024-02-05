@@ -68,9 +68,128 @@ Note: Describing arguments within the body should be used only for struct/enum m
 
  3. Programming in C by Stephen Kochan - Chapter 9, Working with Structures p163-189
 
+Initialization:
 
- 4. [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
- 5. [Typedef](https://publications.gbdirect.co.uk//c_book/chapter8/typedef.html)
+```struct date today = {7, 2, 2005};```
+
+```struct time time1 = {.hour = 2, .minutes = 30, .seconds = 10};```
+
+Compound literals: Assign one or more values to a struct in a single statement. Example:
+```
+struct date today;
+//must be in order
+today = (struct date){9, 25, 2004};
+//Alternative that must not be in order
+today = (struct date){.day = 25, .year = 2004, .month = 9};
+```
+**Structure definition variants**
+```
+/* Can declare struct members in definition*/
+struct date
+{
+	int month;
+ 	int day;
+  	int year
+   } todaysDate, purchaseDate;
+```
+```
+/*  Can declare struct members in definition and assign values */
+struct date
+{
+	int month;
+ 	int day;
+  	int year
+   } todaysDate ={12, 02, 2024};
+```
+
+**Array of structures**
+Can handle more than one set of members. Example of an array experiments that contains 3 elements of type struct time: ```struct time experiments[3];```
+
+Initialization method 1 for first members:
+```
+experiments[0].hour = 12;
+experiments[0].minutes = 50;
+experiments[0].seconds = 36;
+```
+
+Initialization method 2:
+```
+struct time experiments[3] = {{12, 50, 36}, {5, 30, 56}, {23, 59, 59}};
+struct time experiments[3] = {12, 50, 36, 5, 30, 56, 23, 59, 59};
+struct time experiments[3] = {{[1].hour = 12, [1].minutes = 50, [1].seconds = 36};
+```
+
+**Structures within structures** 
+Example:
+```
+struct time
+{
+	int hours;
+	int minutes;
+	int seconds;
+};
+
+struct date
+{
+	int day;
+	int month;
+	int year;
+};
+
+struct DateAndTime
+{
+	struct time stime;
+	struct date sdate;
+};
+```
+a. Defining variables for one set of members: ```struct DateAndTime event;```
+
+To reference a particular member: ```event.sdate.month = 10;```
+
+Initialization:
+```
+struct DateAndTime event = {{12, 10, 50}, {22, 02, 2024}};
+struct DateAndTime event = {{.hour = 12, .minutes = 10, .seconds = 50}, {.day = 22, .month = 02, .year = 2024}};
+```
+
+b. Defining variables for multiple set of members: ```struct DateAndTime event[3];```
+
+To set member of element 1 example:
+events[0].stime.hour = 12;
+events[0].stime.minutes = 50;
+event[0].stime.seconds = 10;
+
+**Structures containing arrays**
+```
+struct month
+{
+	int numberOfDays;
+	char name[3];
+};
+```
+Initialization:
+```
+struct month Month = {31, {'J', 'A', 'N'}};
+
+//Alternative way to fill in members
+Month.numberOfDays = 31;
+Month.name[0] = 'J';
+Month.name[1] = 'A';
+Month.name[2] = 'N';
+```
+**Structures containing arrays and an array of struct elements**
+```
+struct month months[12];
+const struct month months[12] =
+{ { 31, {'J', 'a', 'n'} }, { 28, {'F', 'e', 'b'} },
+{ 31, {'M', 'a', 'r'} }, { 30, {'A', 'p', 'r'} },
+{ 31, {'M', 'a', 'y'} }, { 30, {'J', 'u', 'n'} },
+{ 31, {'J', 'u', 'l'} }, { 31, {'A', 'u', 'g'} },
+{ 30, {'S', 'e', 'p'} }, { 31, {'O', 'c', 't'} },
+{ 30, {'N', 'o', 'v'} }, { 31, {'D', 'e', 'c'} } };
+```
+ 5. [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
+ 6. [Typedef](https://publications.gbdirect.co.uk//c_book/chapter8/typedef.html)
  
 Used to give a type a new name. For example:
 ```
