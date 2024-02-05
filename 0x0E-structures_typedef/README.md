@@ -99,7 +99,7 @@ struct date
 	int month;
  	int day;
   	int year
-   } todaysDate ={12, 02, 2024};
+   } todaysDate = {12, 02, 2024};
 ```
 
 **Array of structures**
@@ -120,6 +120,7 @@ struct time experiments[3] = {{[1].hour = 12, [1].minutes = 50, [1].seconds = 36
 ```
 
 **Structures within structures** 
+
 Example:
 ```
 struct time
@@ -155,9 +156,11 @@ struct DateAndTime event = {{.hour = 12, .minutes = 10, .seconds = 50}, {.day = 
 b. Defining variables for multiple set of members: ```struct DateAndTime event[3];```
 
 To set member of element 1 example:
+```
 events[0].stime.hour = 12;
 events[0].stime.minutes = 50;
 event[0].stime.seconds = 10;
+```
 
 **Structures containing arrays**
 ```
