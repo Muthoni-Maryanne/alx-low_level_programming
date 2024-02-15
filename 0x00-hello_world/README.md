@@ -26,6 +26,68 @@ This was an introduction to C. The concepts covered include: origins of C, Unix,
 
 11. man pages: gcc, printf, puts and putchar.
 
+## Summary
+
+1. Structre of a C program
+* Documentation section.
+* Link section.
+* Definition section.
+* Global declaration section.
+* Main function section.
+* Sub program section.
+
+Example:
+```
+/* File: add.c */
+
+#include <stdio.h>                /* Link section */
+int add(int a, int b);            /* Global function declarartion */
+#define MAX 100                   /* Macro definition */
+int res;                          /* Global variable declarartion */
+
+/**
+ * main - function to test add()
+ *
+ * Return: 0
+ */
+int main(void)
+{
+  int i, j;                     /* Each variable allocated 4 bytes*/
+
+  i = 2;                        /* Value of i set to 2*/
+  j = 4;                        /* Value of j set to 4*/
+  res = add(i, j);              /* Function add() called */
+  printf("%d\n", res);          /* call printf to print value of res */
+  return (0);                   /* return 0 to end the program */
+}
+
+/**
+ * add - function to add two integers
+ *
+ * Return: sum
+ */
+int add(int a, int b)
+{
+  /* value i copied to a, value j copied to b*/
+  sum = a + b;                 /* compute a + b */
+  return (sum);                /* return sum which takes back to main */
+}
+```
+
+2. Formatted and unformatted input and output
+   
+```int printf(const char *format, ...);```
+
+```int scanf(const char *format, ...);```
+
+```int putchar(int ch);```
+
+```int getchar(void);```
+
+3. Compilation process
+
+![1](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/f469ed11-9d41-4cfb-9d08-0fcc49b8bb2c)
+
 ## Tasks
 
 **Task 0:** [0-preprocessor](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)- Write a script that runs a C file through the preprocessor and save the result into another file. The C file name will be saved in the variable $CFILE. The output should be saved in the file c.
