@@ -24,6 +24,30 @@ This is a continuation of C. The concepts covered include: identifiers, keywords
 
 10. man ascii
 
+## Summary
+
+1. Operators in C
+* Arithmetic (+, -, /, *, %)
+* Assignment (=, short hands e.g +=)
+* Relational (<, >, <=, >=, ==, !=)
+* Logical/Boolean (&&, ||, !)
+* Bitwise (&, |, ~, ^, <<, >>)
+* Conditional/ternary (condition ? statement if true : statement if false)
+* Comma (a = 5, 4; Value is 5       a = (5,4); First vaue evaluated an rejected, Value is 4)
+* Special e.g. sizeof (sizeof(int), address(&), *.
+
+2. Conditional statements
+
+![1](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/3657dc5f-8374-41ac-af48-3fc3cbbae415)
+
+![2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/dc522a4b-0bd0-48e1-ae46-e02db0afefe7)
+
+![3](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/438cec2d-4543-40eb-bc26-0afb995968f6)
+
+3. Loops
+
+![4](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/aaff4826-346f-44ca-9bc7-7b5ad536f020)
+
 ## Tasks
 
 **Task 0:** [0-positive_or_negative.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)- This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
