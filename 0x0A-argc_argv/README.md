@@ -60,3 +60,29 @@ int main (int argc, char *argv[])
 ```
 
 ## Tasks
+
+**Task 0:** [0-whatsmyname.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x0A-argc_argv/0-whatsmyname.c)- Write a program that prints its name, followed by a new line.
+* If you rename the program, it will print the new name, without having to compile it again.
+* You should not remove the path before the name of the program
+
+![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/289ab6d5-da6e-4aea-8138-6f33683e0452)
+
+Alternative way to answer if can only use _putchar() or putchar:
+```
+int main(int __attribute__((unused)) argc, char **argv)
+{
+        int i;
+        char * s;
+        s = argv[0];
+
+        for (i = 0; s[i] != '\0'; i++)
+        {
+                putchar(s[i]);
+        }
+        return (0);
+}
+```
+
+
+
+
