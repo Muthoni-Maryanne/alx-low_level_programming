@@ -93,5 +93,10 @@ int main(int __attribute__((unused)) argc, char **argv)
 
 ![2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/30397cab-bd50-4ae6-96ec-415edaa6682c)
 
-
+**Task 3:** [3-mul.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x0A-argc_argv/3-mul.c)- Write a program that multiplies two numbers.
+* Your program should print the result of the multiplication, followed by a new line
+* You can assume that the two numbers and result of the multiplication can be stored in an integer
+* If the program does not receive two arguments, your program should print Error, followed by a new line, and return 1
+  
+![3](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/514f95b5-9787-4dcc-8d32-4a4ef8b40a7d)
 
