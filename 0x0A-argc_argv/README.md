@@ -83,10 +83,15 @@ int main(int __attribute__((unused)) argc, char **argv)
 }
 ```
 **Task 1:** [1-args.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x0A-argc_argv/1-args.c)- Write a program that prints the number of arguments passed into it.
-
-*Your program should print a number, followed by a new line
+* Your program should print a number, followed by a new line
 
 ![1](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/53efe81a-30cf-4351-abef-3f9cfca29dc2)
+
+**Task 2:** [2-args.c](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x0A-argc_argv/2-args.c)- Write a program that prints all arguments it receives.
+* All arguments should be printed, including the first one
+* Only print one argument per line, ending with a new line
+
+![2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/30397cab-bd50-4ae6-96ec-415edaa6682c)
 
 
 
