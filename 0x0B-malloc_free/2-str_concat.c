@@ -21,12 +21,14 @@ char *str_concat(char *s1, char *s2)
 	int ncount = 1;
 	char *p;
 
+	if (s1 == NULL || s2 == NULL)
+		return (NULL);
+
 	while (s1[i] != '\0')
 	{
 		i++;
 		count++;
 	}
-
 	while (s2[j] != '\0')
 	{
 		j++;
@@ -45,7 +47,6 @@ char *str_concat(char *s1, char *s2)
 		p[k] = s1[k];
 		k++;
 	}
-
 	while (l < ncount)
 	{
 		p[k + l] = s2[l];
