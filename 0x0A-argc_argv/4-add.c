@@ -17,28 +17,31 @@
  */
 int main(int argc, char **argv)
 {
-	int i, sum = 0;
+	int i, sum, index = 0;
 
 	if (argc >= 2)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (atoi(argv[i]) != 0 && atoi(argv[i]) >= 0)
+			for (index = 0; argv[i][index]; index++)
 			{
-				sum += atoi(argv[i]);
-			}
-			else
-			{
-				printf("Error\n");
-				return (1);
+				if (argv[i][index] < '0' || argv[i][index] > '9')
+				{
+					printf("Error\n");
+					return (1);
+				}
+				else:
+				{
+					sum += atoi(argv[i]);
+				}
+				printf("0\n");
 			}
 		}
-		printf("%d\n", sum);
 	}
 	else
 	{
-		printf("0\n");
+		printf("0");
 	}
-
+	printf("%d\n", sum);
 	return (0);
 }
