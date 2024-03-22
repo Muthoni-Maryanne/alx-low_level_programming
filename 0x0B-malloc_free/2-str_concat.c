@@ -22,8 +22,10 @@ char *str_concat(char *s1, char *s2)
 	char *p;
 
 	if (s1 == NULL && s2 == NULL)
+	{
+		printf('');
 		return (NULL);
-
+	}
 	while (s1[i] != '\0')
 	{
 		i++;
@@ -34,13 +36,11 @@ char *str_concat(char *s1, char *s2)
 		j++;
 		ncount++;
 	}
-
 	p = malloc(sizeof(char) * (count + ncount - 1));
 	if (p == NULL)
 	{
 		return (NULL);
 	}
-
 	while (k < count - 1)
 	{
 		p[k] = s1[k];
