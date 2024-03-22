@@ -7,14 +7,16 @@
  */
 void more_numbers(void)
 {
-	int n, count;
+	int n, c;
 
-	for (count = 0; count < 10; count++)
+	for (c = 0; c < 10; c++)
 	{
-		for (n = 0; n < 15; n++)
+		for (n = 0; n <= 14; n++)
 		{
-			if (n > 9)
+			if (n >= 10)
+			{
 				_putchar((n / 10) + '0');
+			}
 			_putchar((n % 10) + '0');
 		}
 		_putchar('\n');

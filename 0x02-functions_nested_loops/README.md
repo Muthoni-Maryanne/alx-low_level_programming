@@ -2,7 +2,7 @@
 
 This is a continuation of C. The concepts covered include: nested while loops, functions(prototype declaration, arguments, calling functions, local/automatic variable, auto, static, return value e.g. void, int, etc.), and header files.
 
-## Resources
+## Resources and summary
 
 1. [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)
 
