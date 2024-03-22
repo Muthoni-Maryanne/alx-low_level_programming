@@ -28,10 +28,13 @@ int main (int argc, char *argv[])
   return 0;
 }
 ```
-As you can see, main now has arguments.  C functions wouldn't be very useful if you couldn't ever pass arguments to them -- adding the ability to pass arguments to programs makes them that much more useful The name of the variable argc stands for "argument count"; argc contains the number of arguments passed to the program. The name of the variable argv stands for "argument vector". A vector is a one-dimensional array, and argv is a one-dimensional array of strings. Each string is one of the arguments that was passed to the program. 
+As you can see, main now has arguments.  C functions wouldn't be very useful if you couldn't ever pass arguments to them -- adding the ability to pass arguments to programs makes them that much more useful. The name of the variable argc stands for "argument count"; argc contains the number of arguments passed to the program. The name of the variable argv stands for "argument vector". A vector is a one-dimensional array, and argv is a one-dimensional array of strings. Each string is one of the arguments that was passed to the program. 
 
 argv can be represented in two ways:
-a. char *argv[]: This declaration represents an array of pointers to characters, each pointer points to a string. Each element of the array (argv[0], argv[1], etc.) points to a null-terminated string, where argv[0] typically holds the name of the program itself. The last element of argv is typically NULL, indicating the end of the argument list.
+
+a. char *argv[]: 
+
+This declaration represents an array of pointers to characters, each pointer points to a string. Each element of the array (argv[0], argv[1], etc.) points to a null-terminated string, where argv[0] typically holds the name of the program itself. The last element of argv is typically NULL, indicating the end of the argument list.
 ```
 char *argv[] = {"program_name", "arg1", "arg2", NULL};
 
@@ -45,7 +48,9 @@ char *argv[] = {"program_name", "arg1", "arg2", NULL};
 | argv[3] (ptr)     | ---> NULL
 +-------------------+
 ```
-b. char **argv: This declaration represents a pointer to array of pointers to characters. This means it points to the first element of an array of pointers, where each pointer points to a string (a command-line argument).argv is a pointer that points to the first element of the array of pointers. So, argv itself points to argv[0], which is similar to the first element of the char *argv[] array.
+b. char **argv: 
+
+This declaration represents a pointer to array of pointers to characters. This means it points to the first element of an array of pointers, where each pointer points to a string (a command-line argument).argv is a pointer that points to the first element of the array of pointers. So, argv itself points to argv[0], which is similar to the first element of the char *argv[] array.
 ```
 char **argv;
 
