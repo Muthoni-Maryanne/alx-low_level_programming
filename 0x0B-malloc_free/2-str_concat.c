@@ -21,19 +21,19 @@ char *str_concat(char *s1, char *s2)
 	int ncount = 1;
 	char *p;
 
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 	if (s1 == NULL && s2 == NULL)
-	{
-		printf('');
 		return (NULL);
-	}
-	while (s1[i] != '\0')
+
+	while (s1[i++] != '\0')
 	{
-		i++;
 		count++;
 	}
-	while (s2[j] != '\0')
+	while (s2[j++] != '\0')
 	{
-		j++;
 		ncount++;
 	}
 	p = malloc(sizeof(char) * (count + ncount - 1));
