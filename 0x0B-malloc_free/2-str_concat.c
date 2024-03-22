@@ -38,7 +38,6 @@ char *str_concat(char *s1, char *s2)
 	p = malloc(sizeof(char) * (count + ncount - 1));
 	if (p == NULL)
 	{
-		printf("failed\n");
 		return (NULL);
 	}
 
