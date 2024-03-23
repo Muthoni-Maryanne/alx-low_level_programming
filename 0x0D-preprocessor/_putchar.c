@@ -1,4 +1,4 @@
-/*Header file for _putchar*/
+/*user defined putchar function*/
 
 #include <stdio.h>
 
