@@ -4,6 +4,8 @@
 
 /**
  * print_dog - function that prints a struct dog
+ * @d: pointer that points to/holds address of struct dog my_dog
+ *
  * If an element of d is NULL, print (nil) instead of this element
  * (if name is NULL, print Name: (nil))
  * If d is NULL print nothing
