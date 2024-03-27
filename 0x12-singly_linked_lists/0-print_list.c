@@ -1,6 +1,6 @@
 /* File: 0-print_list.c */
 
-#include "main.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**
