@@ -1,7 +1,4 @@
-/*
- * File: 4-free_list.c
- * Auth: Brennan D Baraban
- */
+/* File: 4-free_list.c */
 
 #include "lists.h"
 #include <stdlib.h>
