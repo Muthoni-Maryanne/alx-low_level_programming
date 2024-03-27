@@ -1,7 +1,4 @@
-/*
- * File: 2-add_node.c
- * Auth: Brennan D Baraban
- */
+/* File: 2-add_node.c */
 
 #include "lists.h"
 #include <string.h>
