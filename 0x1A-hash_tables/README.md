@@ -10,3 +10,27 @@ Continuation of C that examines hash table data structure.
 
 ## Summary
 
+#### Defining the Hash Table Data Structures
+A hash table is an array of items, which are { key: value } pairs. First, define the item structure:
+```
+// Defines the HashTable item.
+
+typedef struct Ht_item
+{
+    char* key;
+    char* value;
+} Ht_item;
+```
+Second Hash table definition with items, size and count(return the number of elements in the hash table). 
+
+Note: The hash table has an array of pointers that point to Ht_item, so it is a double-pointer:
+```
+// Defines the HashTable.
+typedef struct HashTable
+{
+    // Contains an array of pointers to items.
+    Ht_item** items;
+    int size;
+    int count;
+} HashTable;
+```
