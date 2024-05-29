@@ -9,15 +9,13 @@
 # You are not allowed to have a list of all the .o files
 
 CC = gcc
-SRC = $(wildcard *.c)
-OBJ = $(wildcard *.o)
+SRC = main.c school.c
+OBJ = $(SRC:%.c=%.o)
 NAME = school
 
-all: main.o school.o school
+all: ${NAME}
 
-main.o: $(SRC)
-	$(CC)    -c -o main.o main.c
-school.o : $(SRC)
-	$(CC)    -c -o school.o school.c
-school: $(OBJ)
-	$(CC) main.o school.o -o school
+$(NAME): $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+%.o: %.c
+	$(CC)    -c -o $@ $<
