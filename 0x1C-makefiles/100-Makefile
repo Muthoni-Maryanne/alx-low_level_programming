@@ -25,10 +25,10 @@
 # Your Makefile should work even if there is a file in the folder that has the same name as one of your rule
 # Your Makefile should not compile if the header file m.h is missing
 
-NAME = school
 CC = gcc
-SRC = main.c school.c
-OBJ = main.o main.c
+SRC = main.c holberton.c
+OBJ = $(SRC:.c=.o)
+NAME = holberton
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
 .PHONY: all clean oclean fclean re
