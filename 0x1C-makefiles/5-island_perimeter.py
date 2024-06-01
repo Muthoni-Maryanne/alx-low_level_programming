@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""function def island_perimeter(grid): that returns the perimeter of the island"""
+
+
 def island_perimeter(grid):
     """Returns the perimeter of the island described in grid
     
@@ -8,13 +11,13 @@ def island_perimeter(grid):
     Returns:
         int: perimeter of land masses
     """
-    column = len(grid[0])
-    row = len(grid)
+    width = len(grid[0])
+    height = len(grid)
     edges = 0
     size = 0
 
-    for i in range(row):
-        for j in range(column):
+    for i in range(height):
+        for j in range(width):
             if grid[i][j] == 1:
                 size += 1
                 if (j > 0 and grid[i][j - 1] == 1):
