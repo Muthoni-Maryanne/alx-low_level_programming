@@ -1,13 +1,15 @@
 #!/usr/bin/python3
-"""function def island_perimeter(grid): that returns the perimeter of the island"""
+"""function def island_perimeter(grid):
+
+that returns the perimeter of the island"""
 
 
 def island_perimeter(grid):
     """Returns the perimeter of the island described in grid
-    
+
     Args:
         grid (list): The grid of the island
-        
+
     Returns:
         int: perimeter of land masses
     """
