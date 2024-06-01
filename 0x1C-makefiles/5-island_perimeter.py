@@ -1,6 +1,13 @@
 #!/usr/bin/python3
 def island_perimeter(grid):
-    """returns the perimeter of the island described in grid"""
+    """Returns the perimeter of the island described in grid
+    
+    Args:
+        grid (list): The grid of the island
+        
+    Returns:
+        int: perimeter of land masses
+    """
     column = len(grid[0])
     row = len(grid)
     edges = 0
