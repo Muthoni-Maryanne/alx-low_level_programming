@@ -26,6 +26,22 @@ This was an introduction to C. The concepts covered include: origins of C, Unix,
 
 11. man pages: gcc, printf, puts and putchar.
 
+## Learning objectives
+
+- Why C programming is awesome
+- Who invented C
+- Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+- What happens when you type gcc main.c
+- What is an entry point
+- What is main
+- How to print text using printf, puts and putchar
+- How to get the size of a specific type using the unary operator sizeof
+- How to compile using gcc
+- What is the default program name when compiling with gcc
+- What is the official C coding style and how to check your code with betty-style
+- How to find the right header to include in your source code when using a standard library function
+- How does the main function influence the return value of the program
+  
 ## Summary
 
 1. Structre of a C program
@@ -75,14 +91,26 @@ int add(int a, int b)
 ```
 
 2. Formatted and unformatted input and output
-   
-```int printf(const char *format, ...);```
 
-```int scanf(const char *format, ...);```
+**Formatted output**  
+- ```int printf(const char *format, ...);```
 
-```int putchar(int ch);```
+**Fomatted input**
+- ```int scanf(const char *format, ...);```
 
-```int getchar(void);```
+**Unformatted output**
+- ```int putchar(int c);```
+- ```int puts(const char *s)```
+- ```int putc(int c, FILE *stream);```
+- ```int fputc(int c, FILE *stream);```
+- ```int fputs(const char *s, FILE *stream);```
+
+**Unformatted input**
+- ```int getchar(void);```
+- ```char *gets(char *s);```
+- ```int getc(FILE *stream);```
+- ```int fgetc(FILE *stream);```
+- ```char *fgets(char *s, int size, FILE *stream);```
 
 3. Compilation process
 
