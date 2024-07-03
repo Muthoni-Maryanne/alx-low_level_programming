@@ -122,15 +122,15 @@ int add(int a, int b)
 ![0](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/1e26bee4-bd17-4ad5-9489-6d4b5aa368e7)
 
 **Task 1:** [1-compiler](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/1-compiler)-  Write a script that compiles a C file but does not link. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .o instead of .c.
-Example: if the C file is main.c, the output file should be main.o
+Example: if the C file is main.c, the output file should be [main.o](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/main.o)
 ![1](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/76935ac9-0e4e-443a-8e74-cfdd04345e94)
 
 **Task 2:** [2-assembler](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/2-assembler)- Write a script that generates the assembly code of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c.
-Example: if the C file is main.c, the output file should be main.s
+Example: if the C file is main.c, the output file should be [main.s](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/main.s)
 
 ![2](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/d2fe52e9-9b4c-47d5-ad46-433c23ae0311)
 
-**Task 3:** [3-name](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/3-name)- Write a script that compiles a C file and creates an executable named cisfun. The C file name will be saved in the variable $CFILE.
+**Task 3:** [3-name](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/3-name)- Write a script that compiles a C file and creates an executable named [cisfun](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/cisfun). The C file name will be saved in the variable $CFILE.
 
 ![3](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/3fc4ffff-037b-401e-ac18-889a263710a8)
 
@@ -149,7 +149,7 @@ Your program should compile without warning when using the -Wall gcc option
 
 ![6](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/22a61823-ceef-4620-8efa-449e236d7f90)
 
-**Task 7:** [100-intel](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/100-intel)- Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c. Example: if the C file is main.c, the output file should be main.s
+**Task 7:** [100-intel](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/100-intel)- Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c. Example: if the C file is main.c, the output file should be [main.s](https://github.com/Muthoni-Maryanne/alx-low_level_programming/blob/master/0x00-hello_world/main.s)
 
 ![7](https://github.com/Muthoni-Maryanne/alx-low_level_programming/assets/107298263/15624f29-9094-4804-985b-edebb44261cf)
 
